@@ -1,0 +1,23 @@
+# Lingkungan Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Hasil training (dibuat ulang dengan: python train.py)
+output/
+
+# Akun operator lokal (berisi hash kata sandi) - JANGAN di-upload
+config/operator_account.json
+
+# Data: hanya data dummy yang boleh dipublikasikan.
+# Data asli/anonim/mentah apa pun yang ditaruh di folder data/ otomatis diabaikan.
+data/*
+!data/Data-Dummy.xlsx
+
+# Lain-lain
+New folder/
+*.log
+.DS_Store
+.vscode/
+.idea/
